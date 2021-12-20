@@ -14,7 +14,7 @@ import SortNumber
 
 @server.route('/')
 def greet_post():
-    return "You Did it. It was all worth it!"
+    return "You Did it. It was all very worth it!"
 
 @server.route('/sort-numbers', methods = ['GET'])
 def sort_numbers():
