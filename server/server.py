@@ -12,10 +12,6 @@ import SortNumber
 # from importlib.machinery import SourceFileLoader
 # mymodule = SourceFileLoader('SortNumber.py','/Users/joyjitchatterjee/ExampleAPI/src/SortNumber.py').load_module()
 
-@server.route('/')
-def greet_post():
-    return "You Did it. It was very worth it!"
-
 @server.route('/sort-numbers', methods = ['GET'])
 def sort_numbers():
     givenNumSet = request.args.get('num')
