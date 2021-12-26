@@ -40,7 +40,7 @@ def greet_put():
 
 @server.route('/sort-numbers', methods = ['PATCH'])
 def greet_patch():
-    return "You Just PATCHED. Congrats!"
+    return "You Just PATTED. Congrats!"
 
 @server.route('/sort-numbers', methods = ['DELETE'])
 def greet_delete():
