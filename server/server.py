@@ -32,7 +32,7 @@ def sort_numbers():
 
 @server.route('/sort-numbers', methods = ['POST'])
 def greet_post():
-    return "You Just POstedD. Congrats!"
+    return "YOU JUST CHANGED ME!!!"
 
 @server.route('/sort-numbers', methods = ['PUT'])
 def greet_put():
